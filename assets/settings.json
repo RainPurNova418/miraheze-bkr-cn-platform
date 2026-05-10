@@ -1,0 +1,18 @@
+{
+    "Settings": {
+        "DefaultPage": "home",
+        "DefaultWindowSize": "16:9",
+        "HighDpiEnabled": true,
+        "Theme": "dark"
+    },
+    "QFluentWidgets": {
+        "FontFamilies": [
+            "Microsoft YaHei"
+        ],
+        "ThemeColor": "#ff009faa",
+        "ThemeMode": "Dark"
+    },
+    "bot_api": "https://mirror.backroomszh.org/w/api.php",
+    "bot_username": "ChinaNovaQwQ@UlimaBot",
+    "bot_password": "poul5g3ci883noqiegv4tab45u2cqrru"
+}
