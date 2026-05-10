@@ -1,0 +1,109 @@
+/* 亮色主题警告框样式 - 移除不支持的属性 */
+
+WarningBox {
+    border-left: 3px solid #f3a712;
+    background-color: #fff2df;
+    border-radius: 16px;
+    padding: 12px 16px;
+    margin: 8px;
+}
+
+/* 不同类型 */
+WarningBox[level="info"] {
+    border-left-color: #2c7da0;
+    background-color: #e1f0f7;
+}
+WarningBox[level="error"] {
+    border-left-color: #d9534f;
+    background-color: #ffe3df;
+}
+WarningBox[level="warning"] {
+    border-left-color: #e67e22;
+    background-color: #ffebd6;
+}
+WarningBox[level="merge"] {
+    border-left-color: #5a6e9a;
+    background-color: #e6ecf9;
+}
+WarningBox[level="blocked"] {
+    border-left-color: #9b59b6;
+    background-color: #f2e6fc;
+}
+WarningBox[level="add"] {
+    border-left-color: #2ecc71;
+    background-color: #e2f3e5;
+}
+
+/* 标题样式 */
+WarningBox TitleLabel {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 4px;
+    color: #cc7b00;
+}
+WarningBox[level="info"] TitleLabel {
+    color: #1f5e7e;
+}
+WarningBox[level="error"] TitleLabel {
+    color: #c93e2c;
+}
+WarningBox[level="warning"] TitleLabel {
+    color: #b85c0e;
+}
+WarningBox[level="merge"] TitleLabel {
+    color: #3a5795;
+}
+WarningBox[level="blocked"] TitleLabel {
+    color: #8e44ad;
+}
+WarningBox[level="add"] TitleLabel {
+    color: #27ae60;
+}
+
+/* 正文样式 */
+WarningBox BodyLabel {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #5c3b00;
+}
+WarningBox[level="info"] BodyLabel {
+    color: #0b3b4f;
+}
+WarningBox[level="error"] BodyLabel {
+    color: #8a2c1d;
+}
+WarningBox[level="warning"] BodyLabel {
+    color: #8a4b0e;
+}
+WarningBox[level="merge"] BodyLabel {
+    color: #2c3e66;
+}
+WarningBox[level="blocked"] BodyLabel {
+    color: #5e3370;
+}
+WarningBox[level="add"] BodyLabel {
+    color: #1e6f3f;
+}
+
+/* 图标颜色（仅当图标支持 currentColor 时生效，我们已在代码中直接指定图标颜色，此处可保留备用） */
+WarningBox IconWidget {
+    color: #f3a712;
+}
+WarningBox[level="info"] IconWidget {
+    color: #2c7da0;
+}
+WarningBox[level="error"] IconWidget {
+    color: #d9534f;
+}
+WarningBox[level="warning"] IconWidget {
+    color: #e67e22;
+}
+WarningBox[level="merge"] IconWidget {
+    color: #5a6e9a;
+}
+WarningBox[level="blocked"] IconWidget {
+    color: #9b59b6;
+}
+WarningBox[level="add"] IconWidget {
+    color: #2ecc71;
+}
