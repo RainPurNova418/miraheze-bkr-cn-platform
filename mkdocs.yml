@@ -1,0 +1,31 @@
+# 站点名称（必填）
+site_name: miraheze-bkr-cn-platform
+
+# 站点描述（可选）
+site_description: Miraheze 后室中文站务平台
+
+# 站点作者（可选）
+site_author: RainPurNova418
+
+# 你的仓库地址（右上角会出现 GitHub 链接）
+repo_url: https://github.com/RainPurNova418/miraheze-bkr-cn-platform
+repo_name: GitHub
+
+# 主题：推荐用 material（好看、中文友好）
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+
+# 导航菜单（根据你的文档结构改）
+# 默认文档放在 docs/ 文件夹下
+nav:
+  - 首页: index.md
+
+# 插件（可选，推荐）
+plugins:
+  - search
