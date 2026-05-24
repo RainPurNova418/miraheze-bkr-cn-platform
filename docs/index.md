@@ -71,11 +71,6 @@
    许可证：MIT License  
    提供进度条显示支持
 
-7. **ttkbootstrap**  
-   版本：1.10.1  
-   许可证：MIT License  
-   提供现代化 Tkinter 样式
-
 ## 趋势
 
 [![Star History](https://api.star-history.com/svg?repos=RainPurNova418/miraheze-bkr-cn-platform&type=Date)](https://star-history.com/#RainPurNova418/miraheze-bkr-cn-platform&Date)
